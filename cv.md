@@ -38,3 +38,5 @@ function getRandomColor() {
     return colors[index]
 }
 ```
+### Education: _communications engineer_
+### English level: _Intermediate_
