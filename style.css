@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: rgb(3, 48, 248);
+  background-color: rgb(194, 200, 229);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ body{
 }
 .container .left_Side{
   position: relative;
-  background: rgb(41, 41, 143);
+  background: rgb(18, 18, 58);
   padding: 40px;
 }
 
@@ -35,7 +35,7 @@ body{
   display: flex;
   flex-direction: column;
   padding-bottom: 25px;
-  border-bottom: 1px solid rgba(128, 111, 111, 0.3);
+  border-bottom: 2px solid rgba(158, 138, 138, 0.3);
 }
 
 .profileText .imgBox {
@@ -54,6 +54,19 @@ body{
   height: 100%;
   object-fit: cover;
 }
+.profileText h2{
+  color: rgb(245, 107, 72);
+  font-size: 1.3em;
+  margin-top: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+.profileText h2 span {
+  font-size: 0.7em;
+  font-weight: 200;
+}
 
 .container .right_Side{
   position: relative;
@@ -61,4 +74,30 @@ body{
   padding: 40px;
 }
 
+.contactInfo{
+  padding-top: 35px;
+}
 
+.title{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+}
+
+.list {
+  position: relative;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  font-weight: 400;
+}
+.icon{
+  position: relative;
+  margin: 8px 0;
+  cursor: pointer;
+  color: rgb(83, 73, 230);
+  display: inline-block;
+  width: 25px;
+  font-size: 15px;
+}
