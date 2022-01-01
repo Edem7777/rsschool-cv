@@ -76,6 +76,7 @@ body{
 
 .contactInfo{
   padding-top: 35px;
+  
 }
 
 .title{
@@ -91,6 +92,9 @@ body{
   color: rgb(255, 255, 255);
   list-style: none;
   font-weight: 400;
+  padding-bottom: 25px;
+  border-bottom: 2px solid rgba(158, 138, 138, 0.3);
+  
 }
 .icon{
   position: relative;
@@ -100,4 +104,57 @@ body{
   display: inline-block;
   width: 25px;
   font-size: 15px;
+}
+div.Education {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid rgba(158, 138, 138, 0.3);
+  
+}
+h3#education {
+  color: beige;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+.educationInfo{
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  line-height: 25px;
+  font-size: 22px;
+}
+.textUnever{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+h5.year{
+  color:rgb(83, 73, 230);
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.contactInfo.Languag .persent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: rgb(90, 40, 40);
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+.contactInfo.Languag .persent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgb(192, 167, 104);
+
+}
+.textPersent{
+  color: rgb(192, 167, 104);
+  line-height: 15px;
 }
