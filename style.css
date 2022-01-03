@@ -182,8 +182,9 @@ h5.year{
   text-indent: 1.5em;
   color: rgb(53, 44, 21);
   font-weight: 650;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 35px;
 }
 .skills .box {
   position: relative;
@@ -211,4 +212,67 @@ h5.year{
   left: 0;
   height: 100%;
   background: rgb(67, 73, 8);
+}
+.code{
+  background-color: rgb(200, 200, 231);
+  margin-left: 0;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+}
+div.block {
+  line-height: 25px;
+}
+span.varColor{
+  color: blue;
+  font-weight: 750;
+  
+}
+span.codeColor{
+  color: rgb(67, 129, 245);
+  font-weight: 700;
+  
+}
+span.methodColor {
+  color: rgb(250, 125, 8);
+  font-weight: 700;
+}
+span.valueColor
+{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+span.codeTextColor{
+  color: rgb(24, 2, 44);
+  font-weight: 700;
+}
+#for {
+  color: rgb(67, 129, 245);
+  font-weight: 700;
+  margin-left: 15px;
+}
+div.codebox{
+  margin-left: 15px;
+  
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: rgb(53, 44, 21);
+  margin-top: 22px;
+  padding-top: 25px;
+  border-top: 4px solid  rgb(83, 73, 230);
+}
+.my-github {
+  display: flex;
+  align-items: center;
+}
+p.foterDate{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
 }
